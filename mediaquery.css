@@ -1,0 +1,95 @@
+@media (max-width:500px) {
+
+    body{
+        width: 100%;
+        height: 100vh;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        /* background-color: blue; */
+    }
+    header
+    {
+        width: 100%;
+        /* background-color: brown; */
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        width: 100%;
+        
+        font-size: 30px;
+      
+    }
+    #new_task_form{
+        width: 100%;
+    }
+    #new_task_input{
+        width: 70%;
+        height: 60px;
+        font-size: 25px;
+    }
+    #new_task_submit{
+        width: 80px;
+        height: 50px;
+        font-size: 17px;
+        color: white;
+        background-color: chocolate;
+        margin-top: 12px;
+    }
+    
+    .inputclass{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .planlist{
+        width: 100%;
+        height: 100vh;
+    }
+    .plans{
+        font-size: 25px;
+       
+
+    }
+    #planning{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    .secondbar{
+        width: 100%;
+       margin-bottom: 10px;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #new_input_el{
+        width: 70%;
+        height: 60px;
+        font-size: 25px;
+        
+    }
+    .texting{
+        width: 55%;
+        height: 60px;
+        font-size: 25px;
+    }
+   
+    .edit{
+        width:65px;
+        height: 50px;
+        font-size: 17px;
+        background-color: red;
+        color: white;
+        
+        
+    }
+    
+
+    
+}
